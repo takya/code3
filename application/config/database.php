@@ -73,12 +73,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'yamamoto';
 $query_builder = TRUE;
 
-$db['default'] = array(
+$db['sola'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'postgres',
 	'password' => 'sola1qazXDR%',
-	'database' => 'yamamoto',
+	'database' => 'sola',
 	'dbdriver' => 'postgre',
 	'dbprefix' => '',
 	'pconnect' => TRUE,

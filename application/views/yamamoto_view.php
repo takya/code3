@@ -5,7 +5,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 <title>Form</title>
 </head>
-<body>
+<body> yamamoto
+	
 
 <form>
 <p>ユーザ名</p>
@@ -24,4 +25,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </form>
 
 </body>
-</html>
+</html>;
+
+<?php echo $num; ?>
