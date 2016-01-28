@@ -1,5 +1,5 @@
 <?php
-class Blog extends CI_Controller {
+class Yamamoto extends CI_Controller {
 
 	public function index()
 	{
@@ -8,14 +8,12 @@ class Blog extends CI_Controller {
 
 	public function abc()
 	{
-		$this->load->view('yamamoto_view');
+		$this->load->view('Sample_view');
 	}
 	public function takuya()
 	{
 		$this->load->model('Sample_model');
-     
-
-	}
+    }
     #public function name()
 	// {
         // $this ->load->$name="yamamoto";
@@ -29,12 +27,13 @@ class Blog extends CI_Controller {
         // $data['num'] = '20';
         // $this->load->view('yamamoto_view', $data);
 
-    // public function test() {
-        // $this->load->model('sample_model', '', true);
+    // public function get_yamamoto_list() {
+    //     $this->load->model('yamamoto_model', '', true);
 
-        // $data = $this->sample_model->get_last_two_entries();
+    //     $data = $this->yamamoto_model->get_list();
 
-    //     var_dump($data[0]->name);
+    //     var_dump($data);
+
     // }
 
     public function test() {

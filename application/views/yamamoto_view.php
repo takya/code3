@@ -3,27 +3,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <html>
 <head>
-<title>登録フォーム</title>
+<title>Form</title>
 </head>
 <body> 
 
-<form>
-<p>ユーザ名</p>
-<input type="text" name="username"/>
+<form method=post>
+<p>番号</p>
+<input type="text" name="number"/>
+<p>名前</p>
+<input type="text" name="name" />
+
 <p>パスワード</p>
-<input type="password" name="password" />
+<input type="password" name="pass" />
 
-<p>パスワードの確認</p>
-<input type="password" name="passconf" />
-
-<p>メールアドレス</p>
-<input type="text" name="email"/>
+<!-- <p>メールアドレス</p> -->
+<!-- <input type="text" name="email"/> -->
 
 <div><input type="submit" value="送信" /></div>
 
 </form>
 
 </body>
-</html>
+</html>;
+
 
 

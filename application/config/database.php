@@ -70,30 +70,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
-$active_group = 'yamamoto';
+$active_group = 'postg';
 $query_builder = TRUE;
 
-$db['sola'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'postgres',
-	'password' => 'sola1qazXDR%',
-	'database' => 'sola',
-	'dbdriver' => 'postgre',
-	'dbprefix' => '',
-	'pconnect' => TRUE,
-	'db_debug' => TRUE,
-	'cache_on' => FALSE,
-	'cachedir' => '',
-	'char_set' => 'utf8',
-	'dbcollat' => 'utf8_general_ci',
-	'swap_pre' => '',
-	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
-	'failover' => array(),
-	'save_queries' => TRUE
-);
+// $db['yamamoto'] = array(
+// 	'dsn'	=> '',
+// 	'hostname' => 'localhost',
+// 	'username' => 'postgres',
+// 	'password' => 'sola1qazXDR%',
+// 	'database' => 'yamamoto',
+// 	'dbdriver' => 'postgre',
+// 	'dbprefix' => '',
+// 	'pconnect' => TRUE,
+// 	'db_debug' => TRUE,
+// 	'cache_on' => FALSE,
+// 	'cachedir' => '',
+// 	'char_set' => 'utf8',
+// 	'dbcollat' => 'utf8_general_ci',
+// 	'swap_pre' => '',
+// 	'encrypt' => FALSE,
+// 	'compress' => FALSE,
+// 	'stricton' => FALSE,
+// 	'failover' => array(),
+// 	'save_queries' => TRUE
+// );
 
 $db['yamamoto'] = array(
 	'dsn'	=> '',
