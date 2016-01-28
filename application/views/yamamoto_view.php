@@ -5,8 +5,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 <title>Form</title>
 </head>
-<body> yamamoto
-	
+<body> 
+yamamoto
 
 <form>
 <p>ユーザ名</p>

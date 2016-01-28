@@ -66,3 +66,4 @@ class Blog extends CI_Controller {
 //     </table>
 // }
 }
+
