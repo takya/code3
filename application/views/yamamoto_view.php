@@ -3,10 +3,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <html>
 <head>
-<title>Form</title>
+<title>登録フォーム</title>
 </head>
 <body> 
-yamamoto
 
 <form>
 <p>ユーザ名</p>
@@ -25,6 +24,6 @@ yamamoto
 </form>
 
 </body>
-</html>;
+</html>
 
-<?php echo $num; ?>
+

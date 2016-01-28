@@ -8,7 +8,7 @@ class Blog extends CI_Controller {
 
 	public function abc()
 	{
-		$this->load->view('yamamoto_view');
+		$this->load->view('sample_view');
 	}
 	public function takuya()
 	{
@@ -38,15 +38,15 @@ class Blog extends CI_Controller {
     //     var_dump($data[0]->name);
     // }
 
-    public function test() {
-    $this->load->model('sample_model', '', true);
+    // public function test() {
+    // $this->load->model('sample_model', '', true);
 
-    $data = $this->sample_model->get_last_two_entries();
+    // $data = $this->sample_model->get_last_two_entries();
 
-    var_dump($data);
+    // var_dump($data);
 
         // $this->load->view('sample_view', $data);
-    }
+    // }
 
 //     public function task() {
 
@@ -65,5 +65,6 @@ class Blog extends CI_Controller {
 //     </tr>
 //     </table>
 // }
+// }
+// public function sola()
 }
-
