@@ -33,16 +33,31 @@ class Sample_model extends CI_Model {
         // $this->db->update('entries', $this, array('id' => $_POST['id']));
     // }
 
-    public function get_last_two_entries()
-    {
-     // $this->db->get(第一引数はテーブル名、第二引数は取得するレコード数);
-      $query = $this->db->get('sample');
-      return $query->result();
-    // }
     // public function get()
     // {
-    //  $this->db->get(第一引数はテーブル名、第二引数は取得するレコード数);
-    //   $query = $this->db->get_last_two_entries('yamamoto');
-    //   return $query->result();
+     // $this->db->get(第一引数はテーブル名、第二引数は取得するレコード数);
+      // $query = $this->db->get('sample');
+      // return $query->result();
+    // }
+    public function get()
+    {
+    // //  $this->db->get(第一引数はテーブル名、第二引数は取得するレコード数);
+      $query = $this->db->get('yamamoto');
+      return $query->result();
     }
+// }
+//     public $number;
+//     public $name;
+//     public $pass;
+
+//     public function insert_entry() {
+    
+//     $this->number  = $this->input->post('number');
+//     $this->name  = $this->input->post('name');
+//     $this->pass  = $this->input->post('pass');
+
+//         $this->db->insert('entries', $this);
+//     }
 }
+
+

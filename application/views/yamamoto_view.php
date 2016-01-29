@@ -5,20 +5,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 <title>Form</title>
 </head>
-<body> yamamoto
-	
+<body> 
 
-<form>
-<p>ユーザ名</p>
-<input type="text" name="username"/>
+<form method=post>
+<p>番号</p>
+<input type="text" name="number"/>
+<p>名前</p>
+<input type="text" name="name" />
+
 <p>パスワード</p>
-<input type="password" name="password" />
+<input type="password" name="pass" />
 
-<p>パスワードの確認</p>
-<input type="password" name="passconf" />
-
-<p>メールアドレス</p>
-<input type="text" name="email"/>
+<!-- <p>メールアドレス</p> -->
+<!-- <input type="text" name="email"/> -->
 
 <div><input type="submit" value="送信" /></div>
 
@@ -27,4 +26,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </body>
 </html>;
 
-<?php echo $num; ?>
+
+
