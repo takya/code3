@@ -7,11 +7,19 @@
 </body>
 </html> -->
 
-<!-- <html>
+<html>
 <head>
 <title>My Blog</title>
 </head>
 <body>	
+
+<p>
+<?php
+echo '2008年', '10月', '7日', '<br />';
+print "月曜日";
+?>
+</p>
+
 <table border>
 	<tbody>
 		<tr>
@@ -35,7 +43,7 @@
 	</tbody>
 </table>
 </body>
-</html> -->
+</html>;
 
 <!-- <!DOCTYPE html>
 <html lang="ja">
@@ -56,59 +64,22 @@ for (i=20; i<=70; i++) {
 </body>
 </html>
 
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<title>for文の練習（3）</title>
-</head>
-<body>
-<table>
-<tr><th>和暦（平成）</th><th>西暦</th></tr>
-<script>
-var i;
-for (i = 1; i <= 27; i ++) {
-	document.write('<tr><td>' + i + '</td>');
-	document.write('<td>' + (i + 1988) + '</td></tr>');
-}
-</script>
-</table>
-</body>
-</html>
- -->
-<table border="1">
- <tr><th>アイテム一覧</th></tr>
- <?php
-   $items = array(
-     "棍棒", "銅の短剣", "炎の剣",
-     "聖なる盾", "破邪の兜", "天空の盾","炎の鎧"
-   );
-
-   for ($i = 0; $i < count($items); $i++) {
-     echo "<tr><td>{$items[$i]}</td></tr>";
-　　　  for ($i = 0; $i < count($items); $i++) {
-     echo "<tr><td>{$items[$i]}</td></tr>";
-
-   }
 
 
- ?>
- </table>
-
-<!--  <table border="1">
-<?php
-for($a = 1; $a <=9; $a++){
-    echo '<tr>';
-    for($i = 1; $i <= 9; $i++){
-        $ans = $a * $i;
-        echo '<td>'.$a.'×'.$i.'='.$ans.'</td>';
-    }
-    echo '</tr>';
-}
-?> -->
+<! <table border="1"> -->
+ <!-- // <?php 
+// for($a = 1; $a <=9; $a++){
+    // echo '<tr>';
+// for($i = 1; $i <= 9; $i++){
+    // $ans = $a * $i;
+    // echo '<td>'.$a.'×'.$i.'='.$ans.'</td>';
+// }	
+    // echo '</tr>';
+// }
+// ?>
 <!-- </table>
 
-<html>
+<!-- <html>
 <head>
 <title><?php echo $title;?></title>
 </head>
@@ -127,4 +98,3 @@ for($a = 1; $a <=9; $a++){
 
 </body>
 </html>
- -->
