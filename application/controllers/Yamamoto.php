@@ -27,22 +27,24 @@ class Yamamoto extends CI_Controller {
         // $data['num'] = '20';
         // $this->load->view('yamamoto_view', $data);
 
-    // public function get_yamamoto_list() {
-    //     $this->load->model('yamamoto_model', '', true);
+    public function get_yamamoto_list()
+    {
+        $this->load->model('yamamoto_model', '', true);
 
-    //     $data = $this->yamamoto_model->get_list();
+        $data = $this->yamamoto_model->get_list();
 
-    //     var_dump($data);
+        var_dump($data);
 
-    // }
+    }
 
-    public function test() {
-    $this->load->model('blog_model', '', true);
+    public function test() 
+    {
+        $this->load->model('yamamoto_model', '', true);
 
-    $data = $this->blog_model->insert_entry();
+        $data = $this->yamamoto_model->insert_entry();
 
-    var_dump($data);
-    $this->load->view('yamamoto_view');
+        var_dump($data);
+        $this->load->view('yamamoto_view');
     }
 
 //     public function task() {
@@ -64,5 +66,32 @@ class Yamamoto extends CI_Controller {
 // }
 // }
 // public function sola()
+//     { 
+//         // $num = 20;
+//     // hensu = new Array(3);       
+//         // $data['num'] = '20';
+//     $this->load->view('yamamoto_view', $data);
+//     }
+// public function test_data()
+//     {
+//         // $data['title'] = 'My Page Title';
+        
+//         $data['heading'] = 'takuya';
+//         $this->load->view('yamamoto_view', $data);
+//     }
+
+
+
+
+    function sola()
+    {
+        $data['todo_list'] = array('Clean House', 'Call Mom', 'Run Errands');
+
+        $data['title'] = "My Real Title";
+        $data['heading'] = "My Real Heading";
+
+        $this->load->view('sample_view', $data);
+    }
 }
+?>
 

@@ -6,25 +6,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <title>Form</title>
 </head>
 <body> 
+<table border>
+	<tbody>	
 
 <form method=post>
-<p>番号</p>
+<tr>
+<td><p>番号</p></td>
 <input type="text" name="number"/>
-<p>名前</p>
+</tr>
+<tr>
+<td><p>名前</p></td>
 <input type="text" name="name" />
-
-<p>パスワード</p>
+</tr>
+<tr>
+<td><p>パスワード</p></td>
 <input type="password" name="pass" />
-
-<!-- <p>メールアドレス</p> -->
-<!-- <input type="text" name="email"/> -->
+</tr>
+<!-- <p>メールアドレス</p>
+<input type="text" name="email"/> -->
 
 <div><input type="submit" value="送信" /></div>
 
 </form>
+</tbody>
+</table>
 
 </body>
 </html>;
 
-
-
+<!-- <html>
+<head>
+<title></title>
+</head>
+<body>
+<h1><?php echo $heading; ?></h1>
+</body>
+</html>
+ -->
